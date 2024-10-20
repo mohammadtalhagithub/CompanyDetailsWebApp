@@ -74,3 +74,4 @@ D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWe
 D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.pdb
 D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.genruntimeconfig.cache
 D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\ref\CompanyDetailsWebApp.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.sourcelink.json

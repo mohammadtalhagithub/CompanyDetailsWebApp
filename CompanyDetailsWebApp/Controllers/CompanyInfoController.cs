@@ -14,7 +14,7 @@ namespace CompanyDetailsWebApp.Controllers
     public class CompanyInfoController : Controller
     {
 
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<CompanyInfoController> _logger;
         private readonly IConfiguration _configuration;
 
         private CompanyDetails GenerateDefaultData()
@@ -32,7 +32,7 @@ namespace CompanyDetailsWebApp.Controllers
         }
 
 
-        public CompanyInfoController(ILogger<HomeController> logger, IConfiguration configuration)
+        public CompanyInfoController(ILogger<CompanyInfoController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
@@ -53,6 +53,9 @@ namespace CompanyDetailsWebApp.Controllers
         {
             // http://localhost:5081/CompanyInfo/CompanyDetails?companyId=32
             // 5187
+
+            _logger.LogInformation("Accessed the CompanyDetails page.");
+
             CompanyDetails companyDetails = new CompanyDetails();
             companyDetails.MachinesList = new List<MachineDetails>();
 
@@ -108,6 +111,7 @@ namespace CompanyDetailsWebApp.Controllers
                 companyDetails = GenerateDefaultData();
                 companyDetails.MachinesList = new List<MachineDetails>();
 
+                // machine_1
                 {
                     MachineDetails machine_1 = new MachineDetails();
                     machine_1.MacAddress = "00:1A:2B:3C:4D:5E";
@@ -131,6 +135,7 @@ namespace CompanyDetailsWebApp.Controllers
                     companyDetails.MachinesList.Add(machine_1);
                 }
 
+                // machine_2
                 {
                     MachineDetails machine_2 = new MachineDetails();
                     machine_2.MacAddress = "01:23:45:67:89";
@@ -147,6 +152,7 @@ namespace CompanyDetailsWebApp.Controllers
 
                 }
 
+                // machine_3
                 {
 
                     MachineDetails machine_3 = new MachineDetails();
@@ -163,6 +169,7 @@ namespace CompanyDetailsWebApp.Controllers
                     companyDetails.MachinesList.Add(machine_3);
                 }
 
+                // machine_4
                 {
 
                     MachineDetails machine_4 = new MachineDetails();
@@ -193,7 +200,7 @@ namespace CompanyDetailsWebApp.Controllers
             //return View(companyDetails);
         }
 
-
+        [ActionName("SendEmail")]
         public IActionResult SendEmail(string machineID)
         {
             try

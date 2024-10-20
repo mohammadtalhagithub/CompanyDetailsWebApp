@@ -67,7 +67,11 @@
                             {
                                 <div class="module col">
                                     @* mh-nav-flight bg-white rounded-3 shadow-sm mb-lg-0 mb-4 *@
-                                    <p class="btn btn-primary">@Html.DisplayFor(m => module.ModuleName)</p>
+                                    <a href="/CompanyInfo/SendEmail"><p class="btn btn-primary"></p></a>
+                                    @* @Html.ActionLink("Text", "SendEmail", "CompanyInfo", new { @class = "btn btn-primary" }) *@
+                                    @* <a href="">
+                            <p class="btn btn-primary">@Html.DisplayFor(m => module.ModuleName)</p>
+                            </a> *@
                                 </div>
                             }
 

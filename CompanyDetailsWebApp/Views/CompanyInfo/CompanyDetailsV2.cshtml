@@ -1,0 +1,107 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+@model CompanyDetailsWebApp.Models.CompanyDetails
+
+@{
+    ViewData["Title"] = "Company Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<div id="company-details">
+
+    <hr />
+    @* definition lists for company info*@
+    <dl class="row">
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyID)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyID)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyEmail)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyEmail)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LicenseId)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.LicenseId)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Data)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Data)</dd>
+
+    </dl>
+</div>
+
+<h2 id="IdToHide">Id To Hide</h2>
+
+<hr />
+@* <div id="machines-list" class="border-round-class" style="color: red;"> *@
+<div>
+    <div class="h3 mb-0 fw-bold">
+
+        @Html.DisplayNameFor(model => model.MachinesList)
+    </div>
+
+    <br />
+    <div id="machines-list" class="bg-white rounded p-3 shadow-sm border">
+        @{
+            int machineNumber = 1;
+        }
+        @foreach (var machine in Model.MachinesList)
+        {
+            <div class="row">
+                <div class="col macaddress-column">
+                    <p class="h6 mb-0 fw-bold"><a onclick="showDiv('installedModulesMachine_@machineNumber')">@Html.DisplayFor(modelItem => machine.MacAddress)</a></p>
+                </div>
+
+
+                <div class="col modules-column">
+                    <div class="row">
+                        <div id="installedModulesMachine_@machineNumber')" class="row">
+
+                            @foreach (var module in machine.Modules)
+                            {
+                                <div class="module col">
+                                    @* mh-nav-flight bg-white rounded-3 shadow-sm mb-lg-0 mb-4 *@
+                                    <p class="btn btn-primary">@Html.DisplayFor(m => module.ModuleName)</p>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            if (machineNumber < Model.MachinesList.Count())
+            {
+                <hr />
+            }
+            if (machineNumber == Model.MachinesList.Count())
+            {
+                <br />
+            }
+
+            machineNumber++;
+        }
+    </div>
+
+</div>
+
+@* <div> *@
+@* <a asp-action="Edit" asp-route-id="@Model.Company_Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a> *@
+@* </div> *@
+
+
+<script src="~/lib/jquery/jquery-3.7.1.min.js"></script>
+<script src="~/js/companyinfoscript.js"></script>
+<script>
+    // function showDiv(targetDivID) {
+    //     alert();
+    //     $(`#${targetDivID}`).toggle();
+    // }
+</script>

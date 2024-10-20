@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+
+        #email-header{
+        color: #eaecee;
+        background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="email-header">Email Header</h1>
+    </header>
+
+    <main>
+        <h2 style="background-color: lightblue;">Template One Heading</h2>
+        <p>This is a sample HTML template with a header and footer.</p>
+    </main>
+
+    <footer>
+        <div>
+            <hr>
+        <p style="color: blue">Regards,</p>
+        <p style="font-weight: bold;">xyz Name,</p>
+        <p>Department | WASP3D | Beehive Systems</p>
+        <p>B 37, Sector 1 | Noida 201301 | India</p>
+        <p>www.wasp3d.com</p>
+        </div>
+    </footer>
+</body>
+</html>

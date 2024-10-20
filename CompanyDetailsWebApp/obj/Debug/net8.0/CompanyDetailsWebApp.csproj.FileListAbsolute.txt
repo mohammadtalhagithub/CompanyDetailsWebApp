@@ -1,0 +1,76 @@
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\appsettings.Development.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\appsettings.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.staticwebassets.runtime.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.exe
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.deps.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.runtimeconfig.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.pdb
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.AssemblyInfoInputs.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.AssemblyInfo.cs
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.csproj.CoreCompileInputs.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.RazorAssemblyInfo.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.RazorAssemblyInfo.cs
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.CompanyDetailsWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.CompanyDetailsWebApp.props
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CompanyDetailsWebApp.props
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CompanyDetailsWebApp.props
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\bundle\CompanyDetailsWebApp.styles.css
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\projectbundle\CompanyDetailsWebApp.bundle.scp.css
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\refint\CompanyDetailsWebApp.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.pdb
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.genruntimeconfig.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\ref\CompanyDetailsWebApp.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.csproj.AssemblyReference.cache
+D:\My Stuff\Programs\CODE\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyD.FABF406B.Up2Date
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\appsettings.Development.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\appsettings.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.staticwebassets.runtime.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.exe
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.deps.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.runtimeconfig.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\CompanyDetailsWebApp.pdb
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.csproj.AssemblyReference.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.AssemblyInfoInputs.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.AssemblyInfo.cs
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.csproj.CoreCompileInputs.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.RazorAssemblyInfo.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.RazorAssemblyInfo.cs
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.CompanyDetailsWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.CompanyDetailsWebApp.props
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CompanyDetailsWebApp.props
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CompanyDetailsWebApp.props
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\bundle\CompanyDetailsWebApp.styles.css
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\scopedcss\projectbundle\CompanyDetailsWebApp.bundle.scp.css
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyD.FABF406B.Up2Date
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\refint\CompanyDetailsWebApp.dll
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.pdb
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\CompanyDetailsWebApp.genruntimeconfig.cache
+D:\C#\About Beehive Projects\Projects\Core\CompanyDetailsWebApp\CompanyDetailsWebApp\obj\Debug\net8.0\ref\CompanyDetailsWebApp.dll

@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+@model CompanyDetailsWebApp.Models.CompanyDetails
+
+
+@{
+    ViewData["Title"] = "Company Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div id="company-details">
+
+    <hr />
+    @* definition lists for company info*@
+    <dl class="row">
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyID)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyID)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyEmail)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyEmail)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LicenseId)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.LicenseId)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Data)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Data)</dd>
+
+    </dl>
+</div>
+
+<div id="machines-list">
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MachinesList)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @{
+                int machineNumber = 1;
+            }
+            @foreach (var machine in Model.MachinesList)
+            {
+                <tr>
+                    <td>
+                        <a onclick="showDiv('installed-modules-machine_@machineNumber')">@Html.DisplayFor(modelItem => machine.MacAddress)</a>
+                        @* @Html.DisplayFor(modelItem => machine.MacAddress) *@
+                    </td>
+                    <div id="installed-modules-machine_@machineNumber">
+                        @foreach (var module in machine.Modules)
+                        {
+                        <td>
+                            <a class="btn btn-primary" href="/CompanyInfo/SendEmail?machineID=@(module.ModuleID)">@module.ModuleName</a>
+                        </td>
+
+                        }
+    </div>
+
+                    </tr>
+
+                machineNumber++;
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+@* <div> *@
+@* <a asp-action="Edit" asp-route-id="@Model.Company_Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a> *@
+@* </div> *@
+
+
+<script src="~/lib/jquery/jquery-3.7.1.min.js"></script>
+<script src="~/js/companyinfoscript.js"></script>

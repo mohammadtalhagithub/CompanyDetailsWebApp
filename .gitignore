@@ -6,7 +6,7 @@
 /.vs/CompanyDetailsWebApp/DesignTimeBuild
 /.vs/CompanyDetailsWebApp/v17
 /.vs/ProjectEvaluation
-CompanyDetailsWebApp/CompanyDetailsWebApp/bin/
-/CompanyDetailsWebApp/bin/Debug/net8.0/af
-/CompanyDetailsWebApp/bin/Debug/net8.0/cs
-*.dll
+/CompanyDetailsWebApp/CompanyDetailsWebApp/bin/
+#/CompanyDetailsWebApp/bin/Debug/net8.0/af
+#/CompanyDetailsWebApp/bin/Debug/net8.0/cs
+#*.dll

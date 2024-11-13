@@ -36,8 +36,6 @@
     </dl>
 </div>
 
-<h2 id="IdToHide">Id To Hide</h2>
-
 <hr />
 @* <div id="machines-list" class="border-round-class" style="color: red;"> *@
 <div>
@@ -55,13 +53,13 @@
         {
             <div class="row">
                 <div class="col macaddress-column">
-                    <p class="h6 mb-0 fw-bold"><a onclick="showDiv('installedModulesMachine_@machineNumber')">@Html.DisplayFor(modelItem => machine.MacAddress)</a></p>
+                    <p class="h6 mb-0 fw-bold"><a onclick="toggleDiv(@machineNumber)">@Html.DisplayFor(modelItem => machine.MacAddress)</a></p>
                 </div>
 
 
                 <div class="col modules-column">
                     <div class="row">
-                        <div id="installedModulesMachine_@machineNumber')" class="row">
+                        <div id="targetDiv_@(machineNumber)" class="row">
 
                             @foreach (var module in machine.Modules)
                             {

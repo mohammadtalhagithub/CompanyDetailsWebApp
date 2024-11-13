@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 namespace CompanyDetailsWebApp
 {
     public class Program
@@ -36,10 +38,17 @@ namespace CompanyDetailsWebApp
             else
             {
                 builder.WebHost.UseIISIntegration();
-            } 
+            }
 #endif
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddAuthentication(
+                CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(option =>
+                {
+                    option.LoginPath = "/Access/Login";
+                    option.ExpireTimeSpan = TimeSpan.FromSeconds(10);
+                });
 
             var app = builder.Build();
 
@@ -52,12 +61,13 @@ namespace CompanyDetailsWebApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 //  (For Conventional Routing)
                 name: "default",
-                pattern: "{controller=CompanyInfo}/{action=Index}/{companyId?}"
+                pattern: "{controller=Access}/{action=Login}/{companyId?}"
                 );
             //pattern: "{controller=CompanyInfo}/{action=CompanyDetails}/{companyId=32}");
 
